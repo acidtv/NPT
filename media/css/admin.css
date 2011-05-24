@@ -1,0 +1,59 @@
+
+body {
+	margin: 0px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+#content {
+	margin: 10px;
+}
+
+td {
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.small_button {
+	background-color: #DE00C1;
+	color: white;
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 2px 4px 2px 4px;
+	font-size: 11px;
+	text-decoration: none !important;
+	
+}
+
+td.buttons {
+	text-align: right;
+}
+ 
+table.browse {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+table.browse tr:nth-child(odd) {
+	background-color: #DDD;
+}
+
+table.browse td {
+	border: 0px;
+	margin: 0px;
+	padding: 3px;
+}
+
+table.browse th {
+	text-align: left;
+	font-size: 13px;
+}
+
+.pagination {
+	text-align: right;
+	color: grey;
+}
+.pagination a, .pagination strong {
+	color: black;
+}
