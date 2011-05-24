@@ -18,10 +18,10 @@ return array
 			 * Ports and sockets may be appended to the hostname.
 			 */
 			'hostname'   => '127.0.0.1',
-			'username'   => 'herbal',
-			'password'   => 'high01',
+			'username'   => '',
+			'password'   => '',
 			'persistent' => FALSE,
-			'database'   => 'nopizzatoday',
+			'database'   => '',
 			//'dsn'        => 'mysql:host=albert;dbname=i18n',
 		),
 		'table_prefix' => '',
