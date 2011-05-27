@@ -3,3 +3,4 @@ application/logs/*
 .DS_Store
 *.DS_Store
 application/config/database.php
+*.swp
