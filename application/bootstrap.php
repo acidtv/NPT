@@ -109,6 +109,7 @@ Kohana::modules(array(
 	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
 	'flash'        => MODPATH.'flash',
 	'pagination'   => MODPATH.'pagination',
+	'prefab'       => MODPATH.'prefab',
 	));
 
 Cookie::$salt = 'jfdsiangrafdsa';
