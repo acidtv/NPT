@@ -63,7 +63,15 @@ abstract class Controller_Admin_Prefab extends Controller_Admin_Default {
 			$this->_fields = $this->_model->list_columns();
 		}
 
+		$config = Kohana::config('prefab');
+		$menu = array();
+		foreach ($config['menu'] as $key => $item)
+		{
+			$menu[$key] = Route::get($item['route'])->uri($item['params']);
+		}
+
 		$this->_view->title = $name;
+		$this->_view->menu = $menu;
 		$this->_view->_fields = $this->_fields;
 	}
 
