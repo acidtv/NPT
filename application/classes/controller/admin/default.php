@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Controller_Admin_Default extends Controller_Template {
+class Controller_Admin_Default extends Controller_Admin_Prefab {
 	
 	public function before()
 	{
@@ -8,8 +8,6 @@ class Controller_Admin_Default extends Controller_Template {
 		{
 			$this->request->redirect('/');
 		}
-
-		$this->template = 'admin/template';
 
 		parent::before();
 	}

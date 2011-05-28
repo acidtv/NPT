@@ -26,6 +26,15 @@ td {
 	
 }
 
+#menu {
+	background-color: black; 
+	color: white; 
+	padding: 3px;
+}
+#menu a {
+	color: white; 
+}
+
 td.buttons {
 	text-align: right;
 }

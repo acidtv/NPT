@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Controller_Admin_Groentekalender extends Controller_Admin_Prefab {
+class Controller_Admin_Groentekalender extends Controller_Admin_Default {
 
 	protected $_model = 'vegetable';
 

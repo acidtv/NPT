@@ -7,8 +7,10 @@
  * TODO: Delete
  * TODO: Column order by
  */
-abstract class Controller_Admin_Prefab extends Controller_Admin_Default {
+abstract class Controller_Admin_Prefab extends Controller_Template {
 	
+	public $template = 'admin/prefab_template';
+
 	protected $_view = '';
 	protected $_model = '';
 	protected $_fields = array();
@@ -70,8 +72,8 @@ abstract class Controller_Admin_Prefab extends Controller_Admin_Default {
 			$menu[$key] = Route::get($item['route'])->uri($item['params']);
 		}
 
+		$this->template->menu = $menu;
 		$this->_view->title = $name;
-		$this->_view->menu = $menu;
 		$this->_view->_fields = $this->_fields;
 	}
 
